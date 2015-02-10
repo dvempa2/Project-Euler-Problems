@@ -1,0 +1,1 @@
+total=0num_one=0num_two=1sum=0while sum<4000000:    sum=num_one+num_two    if (sum % 2 ==0):        total=total+sum    num_one=num_two    num_two=sumprint(total)
